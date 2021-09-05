@@ -1,0 +1,13 @@
+.card{
+    justify-content:center;
+    margin-left: 2%;
+    padding: 1.5%;
+    display: inline-block;
+    width:25%;
+}
+
+.imgcard{
+    object-fit: cover;
+    width:100%;
+    height: auto;
+}
