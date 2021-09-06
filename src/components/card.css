@@ -1,13 +1,51 @@
 .card{
     justify-content:center;
-    margin-left: 2%;
+    margin-left: 0%;
     padding: 1.5%;
     display: inline-block;
-    width:25%;
+    width:20%;
 }
 
 .imgcard{
     object-fit: cover;
     width:100%;
     height: auto;
+}
+
+@media (max-width: 900px){
+    .card{
+        margin-top: 5%;
+        justify-content:center;
+        margin-left: 2%;
+        padding: 1.5%;
+        display: inline-block;
+        width:40%;
+    }
+
+
+
+}
+
+@media (max-width: 750px){
+    .card{
+        margin-top: 10%;
+        justify-content:center;
+        margin-left: 2%;
+        padding: 1.5%;
+        display: inline-block;
+        width:90%;
+    }
+
+}
+
+@media (max-width: 500px){
+    .card{
+        margin-top: 18%;
+        justify-content:center;
+        margin-left: 2%;
+        padding: 1.5%;
+        display: inline-block;
+        width:90%;
+    }
+
 }
